@@ -1,12 +1,12 @@
 {
-    "name": "acme/flarum-hello-world",
+    "name": "yuanhuanonline/flarum-hello-world",
     "description": "向世界问好！",
     "type": "flarum-extension",
     "require": {
         "flarum/core": ">=0.1.0-beta.15 <0.1.0-beta.16"
     },
     "autoload": {
-        "psr-4": {"Acme\\HelloWorld\\": "src/"}
+        "psr-4": {"github\\HelloWorld\\": "src/"}
     },
     "extra": {
         "flarum-extension": {
